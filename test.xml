@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VRTest" parallel="methods" thread-count="5"> 
+
+  <test name="Testng">
+  	<parameter name="strategy" value="saucelabs"/>
+  	<parameter name="browsers" value= "internetexplorer" />
+  	<classes>
+  	<class name="vrApp.TestVR"/>
+  	</classes>
+  </test>
+  
+</suite>
